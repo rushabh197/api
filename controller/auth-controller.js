@@ -26,6 +26,7 @@ const signup=async(req,res,next)=>{
        next(err);
     }
     
+    
 }
 const login=(req,res)=>{
     res.json({message:"Login route is working"});
